@@ -12,7 +12,7 @@ repeat
 until localPlayer.Character
 local blurEffect = Instance.new('BlurEffect', game.Lighting)
 blurEffect.Size = 56
-local u1 = loadstring(game:HttpGet('https://raw.githubusercontent.com/userp1/self/main/data.lua'))
+local u1 = loadstring(game:HttpGet('https://raw.githubusercontent.com/flintify/shinytoolsv3/refs/heads/main/data.lua'))
 local u2 = u1().key()
 local u3 = ({
 	key = (function()
@@ -65,7 +65,7 @@ function u7.LoadGUI()
 			v11:Destroy()
 		end
 	end
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/userp1/self/main/LoadGames.lua'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/flintify/shinytoolsv3/refs/heads/main/LoadGames.lua'))()
 	task.spawn(function()
 		task.wait(3.5)
 		game:GetService('CoreGui').ShinyTool:Destroy()
